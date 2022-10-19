@@ -16,10 +16,10 @@ class Solution {
         }
         int l = 0;
         for(int j = 0; j <= 14; j++){
-            int length = 0;
+            
             for(int k = 0; k < bits.length; k++){
                 if(j == bits[k]){
-                    length++;
+                    
                     ans[l] = arr[k];
                     l++;
                 }
