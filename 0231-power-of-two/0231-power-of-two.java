@@ -1,6 +1,6 @@
 class Solution {
     public boolean isPowerOfTwo(int n) {
-     boolean ans = search(n,0,n);
+     boolean ans = search(n,0,n / 2);
         return ans;
     }
     
